@@ -122,6 +122,9 @@
                                         <state key="normal" title="Men">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMenTapped:" destination="0tS-eZ-gwf" eventType="touchUpInside" id="Pem-qq-EJk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep7-aN-DdL" customClass="BorderButton" customModule="trialapp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="84" width="335" height="52"/>
@@ -134,6 +137,9 @@
                                         <state key="normal" title="Women">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomenTapped:" destination="0tS-eZ-gwf" eventType="touchUpInside" id="rql-NQ-Sli"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBS-t7-7oF" customClass="BorderButton" customModule="trialapp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="168" width="335" height="52"/>
@@ -146,10 +152,13 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="0tS-eZ-gwf" eventType="touchUpInside" id="Y7T-mJ-Mt5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-IR-soa" customClass="BorderButton" customModule="trialapp" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsc-IR-soa" customClass="BorderButton" customModule="trialapp" customModuleProvider="target">
                                 <rect key="frame" x="20" y="605" width="335" height="52"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -190,6 +199,7 @@
                         <viewLayoutGuide key="safeArea" id="WKe-mx-CrG"/>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="jsc-IR-soa" id="Jvs-3E-PFh"/>
                         <segue destination="fMB-JO-9TJ" kind="show" identifier="skillVCSegue" id="o4K-A7-OP8"/>
                     </connections>
                 </viewController>
