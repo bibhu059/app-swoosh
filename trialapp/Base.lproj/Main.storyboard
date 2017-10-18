@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="trialapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeVC" customModule="trialapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="-345" y="118"/>
         </scene>
-        <!--View Controller-->
+        <!--LeagueVC-->
         <scene sceneID="WG0-Uv-sOG">
             <objects>
-                <viewController id="0tS-eZ-gwf" sceneMemberID="viewController">
+                <viewController id="0tS-eZ-gwf" customClass="LeagueVC" customModule="trialapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ojy-i1-Eps">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -191,10 +191,10 @@
             </objects>
             <point key="canvasLocation" x="557.60000000000002" y="118.29085457271366"/>
         </scene>
-        <!--View Controller-->
+        <!--SkillVC-->
         <scene sceneID="3v3-6N-3qL">
             <objects>
-                <viewController id="fMB-JO-9TJ" sceneMemberID="viewController">
+                <viewController id="fMB-JO-9TJ" customClass="SkillVC" customModule="trialapp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7uH-a3-5gN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
